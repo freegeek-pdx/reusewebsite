@@ -1,0 +1,54 @@
+/*.slidebox
+		{
+			width:960px;
+			height:445px;
+			display:block;
+			border:none;
+			position:relative;
+		}
+		.display-box .slide
+		{
+			display:none;
+			border:none;
+		}
+		.display-box .slide img
+		{
+			border:none;
+		}
+		.org-list
+		{
+			
+			width:255px;
+			z-index:101;
+		}
+		.org-list a
+		{
+			display:block;
+			float:left;
+			margin:3px;
+			border:2px solid black;
+		}
+		.org-list img
+		{
+			border:none;
+		}
+		.org-list a.selected
+		{
+			border:2px solid red;
+		}
+
+
+.org-info {
+	width:100%;
+}
+#orgs {
+	float:left;
+	width:480px;
+}
+.display-box {
+	float:right;
+	width:400px;
+}
+.slide {
+	
+}
