@@ -1,45 +1,31 @@
-/*.slidebox
-		{
-			width:960px;
-			height:445px;
-			display:block;
-			border:none;
-			position:relative;
-		}
-		.display-box .slide
-		{
-			display:none;
-			border:none;
-		}
-		.display-box .slide img
-		{
-			border:none;
-		}
-		.org-list
-		{
-			
-			width:255px;
-			z-index:101;
-		}
-		.org-list a
-		{
-			display:block;
-			float:left;
-			margin:3px;
-			border:2px solid black;
-		}
-		.org-list img
-		{
-			border:none;
-		}
-		.org-list a.selected
-		{
-			border:2px solid red;
-		}
 
-
-.org-info {
+body {
+	font-family:helvetica,sans-serif;
+	line-height:20px;
+}
+#wrapper {
+	width:960px;
+	margin:20px auto;
+}
+h1 {
+	font-size:36px;
+	line-height:38px;
+}
+#header {
 	width:100%;
+	height:300px;
+}
+#logo {
+	float:left;
+}
+#header-blurb {
+	width:660px;
+	float:right;
+	margin:40px 20px 0 0;
+}
+#org-info {
+	width:100%;
+	margin-top:60px;
 }
 #orgs {
 	float:left;
@@ -51,4 +37,64 @@
 }
 .slide {
 	
+}
+#timeline {
+	
+}
+
+
+.org-slidewrapper{ /* Total width: 350px+5px+5px=360px Read relative width relations for the other two containers below! */
+position: relative;
+width: 350px;
+height: 400px; /* Set height to be able to contain height of largest content shown*/
+border: 5px solid maroon;
+overflow: hidden;
+float:right;
+}
+
+.org-slide{ /*style for each fade content DIV within wrapper. Total width: 330px+10px+10px=350px (".org-slidewrapper" width minus its padding and borders, if any) */
+position: absolute;
+background: white;
+padding: 10px;
+visibility: hidden;
+width: 330px;
+}
+
+.org-slidetoggler{ /*style for DIV used to contain toggler links. Total width: 350px+5px+5px=360px */
+width: 350px;
+border: 5px solid maroon;
+border-top-width: 0;
+overflow: hidden;
+}
+
+.org-slidetoggler a{ /*style for every navigational link within toggler */
+text-decoration: none;
+border-right: 2px solid maroon;
+padding: 0 5px;
+float: left;
+display: block;
+font-weight: bold;
+color: black;
+}
+
+.org-slidetoggler a:hover{
+background: #C03021;
+color: white;
+}
+
+.org-slidetoggler a.toc{ /*style for individual toggler links (page 1, page 2, etc). ".toc" class auto generated! */
+}
+
+.org-slidetoggler a.prev, .org-slidetoggler a.next{ /*style for "prev" and "next" toggler links. ".prev" and ".next" classes auto generated! */
+color: black;
+}
+
+.org-slidetoggler a.prev:hover, .org-slidetoggler a.next:hover{
+color: white;
+background: black;
+}
+
+.org-slidetoggler a.selected{ /*style for selected page's toggler link. ".selected" class auto generated! */
+background: #C03021;
+color: white;
 }
