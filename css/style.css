@@ -33,7 +33,7 @@ width: 480px;
 
 /* Org list and slides */
 
-.org-slidewrapper {/* Total width: 350px+5px+5px=360px Read relative width relations for the other two containers below! */
+.org-slidewrapper {
 position: relative;
 width: 460px;
 height: 400px; /* Set height to be able to contain height of largest content shown*/
@@ -41,7 +41,7 @@ overflow: hidden;
 float: right;
 }
 
-.org-slide {/*style for each fade content DIV within wrapper. Total width: 330px+10px+10px=350px (".org-slidewrapper" width minus its padding and borders, if any) */
+.org-slide {/*style for each fade content DIV within wrapper.*/
 position: absolute;
 background: white; /* IMPORTANT this covers up previous slide */
 padding: 10px;
