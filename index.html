@@ -13,6 +13,8 @@
 </script>
 		<script type="text/javascript" src="js/contentfader.js">
 </script>
+
+</script>
 	</head>
 	<body>
 		<div id="wrapper">
@@ -93,33 +95,64 @@
 					</div>
 					<ul id="dates">
 						<li>
-							<a href="#" class="toc">June 9</a>
+							<a href="#" class="toc date">June 9</a>
 						</li>
 						<li>
-							<a href="#" class="toc">June 10</a>
+							<a href="#" class="toc date">June 10</a>
 						</li>
 						<li>
-							<a href="#" class="toc">June 11</a>
+							<a href="#" class="toc date">June 11</a>
 						</li>
 						<li>
-							<a href="#" class="toc">June 12</a>
+							<a href="#" class="toc date">June 12</a>
 						</li>
 						<li>
-							<a href="#" class="toc">June 13</a>
+							<a href="#" class="toc date">June 13</a>
 						</li>
 						<li>
-							<a href="#" class="toc">June 14</a>
+							<a href="#" class="toc date">June 14</a>
 						</li>
 						<li>
-							<a href="#" class="toc">June 15</a>
+							<a href="#" class="toc date">June 15</a>
 						</li>
 					</ul>
-				</div><script type="text/javascript">
+				</div>
+				
+				<script type="text/javascript">
 //<![CDATA[
-					fadecontentviewer.init("display-box", "org-slide", "slide-controls", 0, 500);
-					}
+				
+					
 				//]]>
 				</script>
+				<script type="text/javascript">
+				current = new Date();
+				day = current.getDate();
+				switch(day) {
+					case 9:
+						fadecontentviewer.init("display-box", "org-slide", "slide-controls", 6, 800);
+					break;
+					case 10:
+						fadecontentviewer.init("display-box", "org-slide", "slide-controls", 7, 800);
+					break;
+					case 11:
+						fadecontentviewer.init("display-box", "org-slide", "slide-controls", 8, 800);
+					break;
+					case 12:
+						fadecontentviewer.init("display-box", "org-slide", "slide-controls", 9, 800);
+					break;
+					case 13:
+						fadecontentviewer.init("display-box", "org-slide", "slide-controls", 10, 800);
+					break;
+					case 14:
+						fadecontentviewer.init("display-box", "org-slide", "slide-controls", 11, 800);
+					break;
+					case 15:
+						fadecontentviewer.init("display-box", "org-slide", "slide-controls", 12, 800);
+					break;
+				}
+				 
+				document.write('June ' + day);
+				</script
 			</div>
 		</div>
 	</body>
