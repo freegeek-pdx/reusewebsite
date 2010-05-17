@@ -13,8 +13,6 @@
 </script>
 		<script type="text/javascript" src="js/contentfader.js">
 </script>
-
-</script>
 	</head>
 	<body>
 		<div id="wrapper">
@@ -116,17 +114,12 @@
 							<a href="#" class="toc date">June 15</a>
 						</li>
 					</ul>
-				</div>
-				
-				<script type="text/javascript">
+				</div><script type="text/javascript">
 //<![CDATA[
-				
-					
-				//]]>
-				</script>
-				<script type="text/javascript">
 				current = new Date();
 				day = current.getDate();
+				month = current.getMonth();
+
 				switch(day) {
 					case 9:
 						fadecontentviewer.init("display-box", "org-slide", "slide-controls", 6, 800);
@@ -149,10 +142,11 @@
 					case 15:
 						fadecontentviewer.init("display-box", "org-slide", "slide-controls", 12, 800);
 					break;
+					default:
+					fadecontentviewer.init("display-box", "org-slide", "slide-controls", 0, 800);
 				}
-				 
-				document.write('June ' + day);
-				</script
+				//]]>
+				</script>
 			</div>
 		</div>
 	</body>

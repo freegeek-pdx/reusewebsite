@@ -9,6 +9,8 @@ margin: 30px auto;
 h1 {
 font-size: 36px;
 line-height: 38px;
+color:#6F8E39;
+text-shadow:2px 0 2px #555555;
 }
 #header {
 width: 100%;
@@ -24,7 +26,12 @@ margin: 40px 20px 0 0;
 }
 #org-info {
 width: 100%;
-margin-top: 60px;
+height:540px;
+background-color: #85a155; 
+-moz-border-radius: 5px; 
+-webkit-border-radius: 5px; 
+border: 3px solid #4a7204; 
+padding: 10px;
 }
 #orgs {
 float: left;

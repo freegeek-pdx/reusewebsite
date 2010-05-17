@@ -38,7 +38,7 @@ var fadecontentviewer = {
             return false
         })
     },
-  
+
     init: function(fadeid, contentclass, togglerid, selected, speed) {
         $(document).ready(function() {
             var faderheight = $("#" + fadeid).height()
@@ -49,9 +49,12 @@ var fadecontentviewer = {
                 height: faderheight,
                 visibility: 'hidden'
             })
-						
+
             fadecontentviewer.setuptoggler($fadecontents, togglerid, speed)
-            setTimeout(function() {fadecontentviewer.fade($fadecontents, togglerid, selected, speed) }, 100)
+            setTimeout(function() {
+                fadecontentviewer.fade($fadecontents, togglerid, selected, speed)
+            },
+            100)
             $(window).bind('unload',
             function() {
                 //clean up
