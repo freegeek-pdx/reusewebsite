@@ -33,10 +33,7 @@ var fadecontentviewer = {
             fadecontentviewer.fade($allcontents, togglerid, $(this).attr('pagenumber'), speed)
             return false
         })
-        $toc.hover(function() {
-            fadecontentviewer.fade($allcontents, togglerid, $(this).attr('pagenumber'), speed)
-            return false
-        })
+        
     },
 
     init: function(fadeid, contentclass, togglerid, selected, speed) {
