@@ -106,7 +106,15 @@ position:relative;
 }
 .org-slidetoggler #list a.selected {
 }
-
+/* Map link */
+.org-slidetoggler .map {
+	bottom:70px;
+	left:600px;
+	position:relative;
+}
+.org-slidetoggler .map a {
+	color:#d0f199;
+}
 /*  Date Timeline */
 
 #dates {
