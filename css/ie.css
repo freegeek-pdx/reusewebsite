@@ -1,0 +1,18 @@
+body {
+	font-family: calibri,sans-serif;
+}
+/* Map link */
+.org-slidetoggler .map a {
+position:relative;
+top:46px;
+}
+#dates  {
+	position:relative;
+	margin-top:30px;
+	background-position:center center;
+}
+#dates ul {
+	position:relative;
+	bottom:30px;
+	
+}
