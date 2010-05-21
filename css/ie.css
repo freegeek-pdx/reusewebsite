@@ -1,11 +1,10 @@
-body {
-	font-family: calibri,sans-serif;
-}
+
 /* Map link */
 .org-slidetoggler .map a {
 position:relative;
 top:46px;
 }
+/* Date Bubbles */
 #dates  {
 	position:relative;
 	margin-top:30px;
