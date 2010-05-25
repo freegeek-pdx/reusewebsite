@@ -12,18 +12,14 @@ margin: 30px auto;
 /* Text Style */
 
 h1 {
-font-size: 54px;
+font-size: 48px;
 letter-spacing: 0.05em;
 line-height: 54px;
-color: #6F8E39;
 text-shadow: 2px 0 2px #555555;
-border: 1px solid #4a7204;
--moz-border-radius: 10px;
--webkit-border-radius: 10px;
-border-radius: 10px;
-behavior: url(js/border-radius.htc);
-background-color: #fde9d6;
-padding: 20px 24px;
+}
+h2 {
+	font-size:24px;
+	margin-bottom:10px;
 }
 a:link, a:visited {
 text-decoration: none;
@@ -49,6 +45,17 @@ float: left;
 #header-blurb {
 float: left;
 margin: 60px 0 0 120px;
+color: #6F8E39;
+border: 1px solid #4a7204;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+behavior: url(js/border-radius.htc);
+background-color: #fde9d6;
+padding: 20px 24px;
+}
+#header-blurb p {
+	font-size:20px;
 }
 #org-info {
 width: 960px;
