@@ -19,6 +19,7 @@ text-shadow: 2px 0 2px #555555;
 }
 h2 {
 font-size: 24px;
+line-height:28px;
 margin-bottom: 10px;
 }
 a:link, a:visited {
@@ -107,9 +108,9 @@ float: right;
 }
 .org-slide p {
 color: #333333;
-font-size: 18px;
+font-size: 16px;
 letter-spacing: 0.01em;
-line-height: 24px;
+line-height: 20px;
 }
 .org-slidetoggler li {
 margin: 42px 0;
