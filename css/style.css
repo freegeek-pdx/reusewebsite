@@ -38,14 +38,14 @@ font-size: 12px;
 
 #header {
 width: 100%;
-height: 260px;
+height: 360px;
 }
 #logo {
 float: left;
 }
 #header-blurb {
 float: left;
-margin: 60px 0 0 120px;
+margin: 40px 0 0 120px;
 color: #6F8E39;
 border: 1px solid #4a7204;
 -moz-border-radius: 10px;
@@ -71,11 +71,16 @@ padding: 10px;
 }
 #org-list {
 width: 400px;
+position:relative;
+top:-100px;
 }
 #footer {
-font-size: 12px;
-color: #444;
-text-align: center;
+	color:#444444;
+	font-size:12px;
+	height:20px;
+	position:relative;
+	text-align:center;
+	top:-110px;
 }
 
 /* Org list and slides */
@@ -135,7 +140,7 @@ color: #4a7204;
 text-shadow: 1px 0 1px #d0f199;
 }
 .org-slidetoggler #list {
-margin-bottom: 120px;
+margin-bottom: 110px;
 }
 .org-slidetoggler .orglist-imgwrapper {
 float: left;
@@ -166,15 +171,21 @@ font-size: 18px;
 #dates {
 background: transparent url("../img/timeline.png") no-repeat scroll 0 0;
 height: 120px;
-margin-left: -36px;
+left: -36px;
+overflow:hidden;
 padding: 0 0 0 72px;
+position:relative;
+top:-112px;
 text-align: center;
 width: 1030px;
+}
+#dates ul {
+	
 }
 #dates li {
 height: 1%;
 float: left;
-margin: 30px 0 0 0;
+margin: 32px 0 0 0;
 }
 #dates li a.selected {
 background: url("../img/red-circle.png") no-repeat scroll 23px 0 transparent;
