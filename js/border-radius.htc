@@ -1,12 +1,12 @@
---Do not remove this if you are using--
-Original Author: Remiz Rahnas
-Original Author URL: http://www.htmlremix.com
-Published date: 2008/09/24
 
-Changes by Nick Fetchak:
-- IE8 standards mode compatibility
-- VML elements now positioned behind original box rather than inside of it - should be less prone to breakage
-Published date : 2009/11/18
+//Original Author: Remiz Rahnas
+//Original Author URL: http://www.htmlremix.com
+//Published date: 2008/09/24
+
+//Changes by Nick Fetchak:
+//- IE8 standards mode compatibility
+//- VML elements now positioned behind original box rather than inside of it - should be less prone to breakage
+//Published date : 2009/11/18
 
 
 <public:attach event="oncontentready" onevent="oncontentready('v08vnSVo78t4JfjH')" />

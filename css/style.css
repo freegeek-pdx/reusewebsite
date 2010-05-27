@@ -175,9 +175,10 @@ left: -36px;
 overflow:hidden;
 padding: 0 0 0 72px;
 position:relative;
-top:-112px;
+top:-112px !important; 
 text-align: center;
-width: 1030px;
+width: 1030px;	
+float:none;
 }
 #dates ul {
 	
@@ -196,7 +197,7 @@ zoom: 1;
 background: url("../img/circle.png") no-repeat scroll 23px 0 transparent;
 color: #333;
 font-size: 16px;
-padding: 36px;
+padding: 35px;
 text-decoration: none;
 }
 #dates li a:hover {
