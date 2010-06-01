@@ -38,14 +38,14 @@ font-size: 12px;
 
 #header {
 width: 100%;
-height: 360px;
+height:390px;
 }
 #logo {
 float: left;
 }
 #header-blurb {
 float: left;
-margin: 40px 0 0 120px;
+margin: 40px 0 0 200px;
 color: #6F8E39;
 border: 1px solid #4a7204;
 -moz-border-radius: 10px;
@@ -53,10 +53,24 @@ border: 1px solid #4a7204;
 border-radius: 10px;
 behavior: url(js/border-radius.htc);
 background-color: #fde9d6;
-padding: 20px 24px;
+padding: 20px;
 }
 #header-blurb p {
 font-size: 20px;
+}
+#calendar-label {
+	
+	float:left;
+	font-size:20px;
+	margin-left:100px;
+	margin-top:60px;
+	background-color: #85a155;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	behavior: url(js/border-radius.htc);
+	border: 3px solid #4a7204;
+	padding:10px 30px;
 }
 #org-info {
 width: 960px;
@@ -117,6 +131,10 @@ font-size: 16px;
 letter-spacing: 0.01em;
 line-height: 20px;
 }
+p#first-slide {
+	font-size:24px;
+	line-height:30px;
+}
 .org-slidetoggler li {
 margin: 42px 0;
 height: 34px;
@@ -169,16 +187,16 @@ font-size: 18px;
 /*  Date Timeline */
 
 #dates {
-background: transparent url("../img/timeline.png") no-repeat scroll 0 0;
-height: 120px;
-left: -36px;
-overflow:hidden;
-padding: 0 0 0 72px;
-position:relative;
-top:-112px !important; 
-text-align: center;
-width: 1030px;	
-float:none;
+	background:url("../img/timeline.png") no-repeat scroll 0 0 transparent;
+	float:none;
+	height:120px;
+	left:-36px;
+	overflow:hidden;
+	padding:0 0 0 80px;
+	position:relative;
+	text-align:center;
+	top:-112px !important;
+	width:1030px;
 }
 #dates ul {
 	
@@ -186,19 +204,19 @@ float:none;
 #dates li {
 height: 1%;
 float: left;
-margin: 32px 0 0 0;
 }
 #dates li a.selected {
 background: url("../img/red-circle.png") no-repeat scroll 23px 0 transparent;
-color: #FFF;
+color: #FeFeFe;
 }
 #dates li a {
-zoom: 1;
-background: url("../img/circle.png") no-repeat scroll 23px 0 transparent;
-color: #333;
-font-size: 16px;
-padding: 35px;
-text-decoration: none;
+	background:url("../img/circle.png") no-repeat scroll 23px 0 transparent;
+	color:#333333;
+	display:block;
+	font-size:30px;
+	padding:35px 32px;
+	text-decoration:none;
+	width:60px;
 }
 #dates li a:hover {
 background: url("../img/red-circle.png") no-repeat scroll 23px 0 transparent;
